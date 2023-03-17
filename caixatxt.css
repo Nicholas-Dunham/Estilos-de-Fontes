@@ -1,0 +1,41 @@
+.containerpesquisa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.caixatexto .input-text {
+  background-color: white;
+  border: 1px solid #747474;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 50px;
+  width: 450px;
+  transition: width 0.3s ease;
+}
+.btn{
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 24px;
+  
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.btn:focus, input-text:focus{
+  outline:none;
+}
+
+.caixatexto.active .input-text{
+  width: 200px;
+}
+
+.caixatexto.active .btn{
+  transform: translateX(198px)
+}

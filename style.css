@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+ body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titulo{
+    color: #383838;
+    font-family:'Rampart One', cursive; 
+    font-size: 64px;
+    margin-left: 150px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 70px;
+}
+

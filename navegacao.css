@@ -1,0 +1,9 @@
+
+.circulo{
+  background-color: #383838;
+  height: 45px; 
+  width: 45px;
+  border-radius: 50%;
+  position:relative;
+  transition: transform .5s linear;
+}

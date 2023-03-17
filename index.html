@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navegacao.css">
+    <link rel="stylesheet" href="pesquisa.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="rolagem.css">
+    <link rel="stylesheet" href="rolagem.css">
+    <link rel="stylesheet" href="caixatxt.css">
+    
+    <title>Teste de Fontes</title>
+
+</head>
+
+<body>
+
+     <header>
+        <span class="menu">
+            <nav>
+            <div class="container-nav">
+                    <div class="circulo"></div>
+            </div>
+            </nav>
+        </span>
+        <span class="titulo">
+            <h1 id="titulo">Estilos das fontes</h1>
+        </span>
+        <span class="pesquisa">
+            <a href="https://github.com/Nicholas-Dunham" target="_blank" class="input" title="Github"><i class="fa-brands fa-github"></i></a>
+            <a href="https://discord.gg/DTdxpaTN" target="_blank" class="input" title="Discord"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.linkedin.com/in/nicholas-dunham-27ab17239/" target="_blank" class="input" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </span>
+     </header>
+
+     <main>
+        <div class="container2">
+            <div class="fundo ativo" id="monospace" style="background-color: #f54a66;">
+                <h1>A</h1>
+                <p>Monospace: As fontes monoespacadas sao projetadas para que cada caractere ocupe a mesma quantidade de espaco horizontal, o que pode torna-las uteis para codificacao ou outras aplicações onde o alinhamento preciso e importante. Elas tem uma aparencia mais tecnica ou utilitaria do que outros estilos de fonte.</p>
+            </div>
+            <div class="fundo" id="sans-serif" style="background-color: #ce6a43;">
+                <h1>B</h1>
+                <p>As fontes sans-serif são fontes limpas e modernas que não têm as pequenas linhas no final de cada traço (chamadas serifas) que as fontes serifadas têm. Elas são frequentemente usadas para manchetes, logotipos e outros elementos de design que precisam ser fáceis de ler em um tamanho grande.</p>
+            </div>
+            <div class="fundo" id="serif" style="background-color:#a47a42;">
+                <h1>C</h1>
+                <p>As fontes serifadas têm pequenas linhas no final de cada traço, o que pode torná-las mais tradicionais ou clássicas. Elas são frequentemente usadas para texto principal em materiais impressos como livros e jornais, já que são fáceis de ler em um tamanho pequeno.</p>
+            </div>
+            <div class="fundo" id="handwriting" style="background-color: #84805a;">
+                <h1>D</h1>
+                <p>As fontes de escrita à mão são projetadas para parecer com a caligrafia de alguém. Elas podem ser casuais e brincalhonas ou mais formais e elegantes, dependendo do estilo. Elas são frequentemente usadas em designs que desejam transmitir uma sensação pessoal ou artesanal.</p>
+            </div>
+            <div class="fundo" id="disp" style="background-color:#777c73;">
+                <h1>E</h1>
+                <p>As fontes de exibição são projetadas para serem usadas em tamanhos grandes, como manchetes ou títulos. Elas podem ser ousadas e chamativas ou mais decorativas e estilizadas. Elas são frequentemente usadas em branding ou publicidade para causar um forte impacto visual.</p>
+            </div>
+        </div>
+
+        <div class="containerpesquisa">
+            <div class="caixatexto">
+                <input type="text" class="input-text" onkeyup="changeTitle()" placeholder="Teste seu estilo preferido..."/>
+        
+                <button class="btn">
+                    <i class="fa-solid fa-terminal"></i>
+                </button>
+            </div> 
+        </div>
+
+
+        <div class="rolagem">    
+            <div class="caixa" style="background-color: #f54a66;"><h2 class="title" id="monospace">Monospace</h2></div>
+            <div class="caixa" style="background-color: #ce6a43;"><h2 class="title" id="sans-serif">Sans-serif</h2></div>
+            <div class="caixa" style="background-color:#a47a42;"><h2 class="title" id="serif">Serif</h2></div>
+            <div class="caixa" style="background-color: #84805a;"><h2 class="title" id="handwriting">Handwriting</h2></div>
+            <div class="caixa" style="background-color:#777c73;"><h2 class="title" id="disp">Display</h2></div>
+            </div>
+     </main>
+
+     <footer>
+        <h2>Email institucional: nicholas.dunham@al.infnet.edu.br</h2>
+     </footer>
+     
+    
+    
+    <script src="rolagem.js"></script>
+    <script src="cards.js"></script>
+    <script src="mudatexto.js"></script>
+    <!-- <script src="caixatxt.js"></script> -->
+
+</body>
+</html>

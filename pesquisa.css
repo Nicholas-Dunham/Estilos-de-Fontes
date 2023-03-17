@@ -1,0 +1,32 @@
+ .pesquisa{
+  position: relative;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+ 
+.pesquisa .input{
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 35px;
+  margin: 5px;
+  height: 35px;
+  width: 50px;
+  transition: width 0.3s ease;
+}
+
+.btn:focus, input:focus{
+  outline:none;
+}
+
+i{
+  color: rgb(78, 78, 78);
+}
+
+i:hover{
+  color: rgba(78, 78, 78, 0.75);
+}
+
+::placeholder{
+  text-align: center;
+}
